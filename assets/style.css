@@ -20,11 +20,13 @@ display: flex;
 flex-wrap: wrap;
 }
 .cartao {
-margin: 1rem 1rem;
-height: 20rem;
-flex-grow: 1;
-flex-basis: calc(33% - 6rem);
-}
+    margin: 1rem;
+    background-color: rgb(0, 89, 255);
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 2rem); /* Corrigido o cálculo do espaço */
+    perspective: 1000px; /* Adiciona perspectiva para o efeito de rotação */
+    }
 .cartao__conteudo p {
 padding: 4rem;
 margin-top: 4rem;
